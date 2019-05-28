@@ -19,8 +19,6 @@ public class MaximumSubsetSumWithNoAdjacentElements {
 			// Return the singular element as the sum
 			return array[ 0 ];
 		} else if ( array.length > 1 ) {
-			int sum = 0;
-
 			// Build an array that, at each index, stores the max sum possible from 0 ->
 			// index
 			int[] max = array.clone( );
